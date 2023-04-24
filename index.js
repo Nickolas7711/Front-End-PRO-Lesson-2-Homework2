@@ -1,0 +1,16 @@
+firstNumberAddition = +prompt('To add two numbers, enter the first number');
+secondNumberAddition = +prompt('To add two numbers, enter the second number')
+valueSum = firstNumberAddition + secondNumberAddition;
+alert(`•  ${firstNumberAddition} + ${secondNumberAddition} = ${valueSum} `);
+firstNumberSubtraction = +prompt('To subtract two numbers, enter the first number');
+secondNumberSubtraction = +prompt('To subtract two numbers, enter the second number')
+valueSubtraction = firstNumberSubtraction - secondNumberSubtraction;
+alert(`•  ${firstNumberSubtraction} - ${secondNumberSubtraction} = ${valueSubtraction}`);
+firstNumberMultiplication = +prompt('To multiply two numbers, enter the first number');
+secondNumberMultiplication = +prompt('To multiply two numbers, enter the second number')
+valueMultiplication = firstNumberMultiplication * secondNumberMultiplication;
+alert(`•  ${firstNumberMultiplication} * ${secondNumberMultiplication} = ${valueMultiplication}`);
+firstNumberDivision = +prompt('To divide two numbers, enter the first number');
+secondNumberDivision = +prompt('To divide two numbers, enter the second number')
+valueDivision = firstNumberDivision / secondNumberDivision;
+alert(`•  ${firstNumberDivision} / ${secondNumberDivision} = ${valueDivision}`);
